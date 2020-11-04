@@ -1,0 +1,33 @@
+.sidebar{
+    grid-column: 3 / 4;
+    .listado-izquierdo {
+            width: 400px;
+            margin-top: 50px;
+        p{
+            margin: 20px 0;
+            padding-right: 114px;
+        }
+
+        .tags{
+            ul {
+                padding: 0;
+                list-style: none;
+
+                li {
+                    display: inline-block;
+                    padding: 2px 4px;
+                    background-color: steelblue;
+                    margin-right: 1px;
+                    color: white;
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        img {
+            width: 220px;
+            height: 200px;
+            margin: 20px 0;
+        } 
+    }
+}

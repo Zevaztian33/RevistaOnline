@@ -1,0 +1,22 @@
+form{
+    grid-column: span 3;
+
+.newsletter{
+        background-color: gray;
+        text-align: center;
+        padding: 30px 0;
+        margin-top: -16px;
+
+        .group input, .group button {
+            display: inline-block;
+            border-width: 0;
+            font-size: 13px;
+            padding: 5px 10px;
+        }
+
+        .group button {
+            background-color: coral;
+            color: white;
+        }
+}
+}
